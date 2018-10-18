@@ -2,7 +2,7 @@
 
 body {
     font-family: sans-serif;
-    // font-size: 40px;
+    font-size: 40px;
     color: yellow;
     background-image: url("assets/black-bricks.jpg");
     background-size: cover; }
@@ -17,7 +17,7 @@ body {
     width: 800px;
     height: 800px;
     border: 1px solid #CCC;
-    margin: 80px 80px 80px 80px;
+    margin: 40px 80px 80px 80px;
     perspective: 1600px;
 }
 
@@ -54,7 +54,7 @@ body {
 .cube__face--back   { background-image: url("assets/avion.jpeg"); background-size: contain; }
 .cube__face--left   { background-image: url("assets/trailer.jpeg"); background-size: contain; }
 .cube__face--top    { background-image: url("assets/sky.jpeg"); background-size: contain; }
-.cube__face--bottom { background-image: url("assets/ground.jpeg"); background-size: contain; }
+.cube__face--bottom { background-image: url("assets/grass.jpeg"); background-size: contain; }
 
 .cube__face--front  { transform: rotateY(  0deg) translateZ(400px); }
 .cube__face--right  { transform: rotateY( 90deg) translateZ(400px); }
@@ -66,6 +66,10 @@ body {
 label { margin-right: 10px; }
 
 .radio-group{
-    margin: 0px 300px;
+    margin: 0px 100px;
     display: inline;
+}
+
+.form{
+    font-size: 20px;
 }

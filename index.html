@@ -34,7 +34,39 @@
             <div class="cube__face cube__face--right">right</div>
             <div class="cube__face cube__face--left">left</div>
             <div class="cube__face cube__face--top">top</div>
-            <div class="cube__face cube__face--bottom">bottom</div>
+            <div class="cube__face cube__face--bottom">bottom
+                <div class="form">
+                    <form action="" method="get">
+                        <label for="nombre">nombre</label>
+                        <input type="text" id="nombre">
+                        <label for="pass">pass:</label>
+                        <input type="password" id="pass">
+                        <input type="radio" id="genero-male" name="gender" value="male">
+                        <label for="genero-male">Male</label>
+                        <input
+                                type="radio"
+                                id="genero-female"
+                                name="gender"
+                                value="female" checked>
+                        <label for="genero-female">female</label>
+                        <input type="checkbox" name="dias" id="d1" value="lunes" checked><label for="d1">lunes</label>
+                        <input type="checkbox" name="dias" id="d2" value="martes" checked><label for="d2">martes</label>
+                        <label for="date">Fecha:</label><input type="date" name="date" id="date">
+                        <label for="time">Hora:</label>
+                        <input type="time" name="time" id="time">
+                        <label for="color">Color:</label>
+                        <input type="color" name="color" id="color">
+                            <label for="estado-civil">Estado Civil:</label>
+                            <select name="estado-civil" id="estado-civil">
+                                <option value="s">Soltero</option>
+                                <option value="c">Casado</option>
+                                <option value="v">Viudo</option>
+                            </select>
+                            <input type="submit" value="Enviar"><input type="reset" value="Borrar datos">
+                    </form>
+                </div>
+
+            </div>
         </div>
     </div>
     <script src="controles.js"></script>
