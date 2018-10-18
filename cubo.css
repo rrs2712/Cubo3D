@@ -1,6 +1,16 @@
 * { box-sizing: border-box; }
 
-body { font-family: sans-serif; }
+body {
+    font-family: sans-serif;
+    color: yellow;
+    background-image: url("assets/black-bricks.jpg");
+    background-size: cover; }
+
+.backbone{
+    width: 400px;
+    margin: 0px auto;
+    position: relative;
+}
 
 .scene {
     width: 200px;
@@ -38,12 +48,12 @@ body { font-family: sans-serif; }
     text-align: center;
 }
 
-.cube__face--front  { background: hsla(  0, 100%, 50%, 0.7); }
-.cube__face--right  { background: hsla( 60, 100%, 50%, 0.7); }
-.cube__face--back   { background: hsla(120, 100%, 50%, 0.7); }
-.cube__face--left   { background: hsla(180, 100%, 50%, 0.7); }
-.cube__face--top    { background: hsla(240, 100%, 50%, 0.7); }
-.cube__face--bottom { background: hsla(300, 100%, 50%, 0.7); }
+.cube__face--front  { background-image: url("assets/moto.jpeg"); background-size: contain; }
+.cube__face--right  { background-image: url("assets/auto.jpeg"); background-size: contain; }
+.cube__face--back   { background-image: url("assets/avion.jpeg"); background-size: contain; }
+.cube__face--left   { background-image: url("assets/trailer.jpeg"); background-size: contain; }
+.cube__face--top    { background-image: url("assets/sky.jpeg"); background-size: contain; }
+.cube__face--bottom { background-image: url("assets/ground.jpeg"); background-size: contain; }
 
 .cube__face--front  { transform: rotateY(  0deg) translateZ(100px); }
 .cube__face--right  { transform: rotateY( 90deg) translateZ(100px); }
